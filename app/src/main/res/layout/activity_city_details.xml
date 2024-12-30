@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Бишкек" />
+
+    <ImageView
+        android:id="@+id/cityImageView"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_bishkek" />
+
+    <TextView
+        android:id="@+id/cityInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="Бишке́к (кирг. Бишкек; ранее Пишпе́к, Фру́нзе) — столица и крупнейший город Кыргызстана, город республиканского значения, административный центр Чуйской области. Главный транспортный узел, промышленный и административный центр страны. Современный культурный, политический и экономический центр республики." />
+
+</LinearLayout>
